@@ -188,7 +188,7 @@ minetest.register_node("saltd:burnt_grass", {
 	sunlight_propagates = true,
 	walkable = false,
 	buildable_to = true,
-	groups = { snappy = 3, flora = 1, attached_node = 1, flammable = 1 },
+	groups = { snappy = 3, flora = 1, attached_node = 1, flammable = 1, dry_grass = 1, },
 	sounds = default.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
