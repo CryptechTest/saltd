@@ -19,8 +19,8 @@ minetest.register_biome({
 	node_stone = "default:stone",
 	y_max = 5,
 	y_min = 1,
-	heat_point = 50,
-	humidity_point = 10,
+	heat_point = 90,
+	humidity_point = 20,
 	vertical_blend = 0,
 })
 
